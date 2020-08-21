@@ -18,13 +18,12 @@
   }
   
   .navbar{
-      padding-left: 50px;
+      padding-left: 10px;
   }
 
 
-  .navbar-brand img {
-    height: 60px;
-    padding-left: 30px;
+  .navbar-brand {
+    padding-left: 0px;
   }
   
   .navbar-nav li {
@@ -53,7 +52,8 @@
 
 
   @media only screen and (max-device-width : 768px) {
-    .navbar-nav li {
-        padding: 0px;
-      }
+   
+  .navbar-brand {
+    height: 30px !important;
+  }
   }
