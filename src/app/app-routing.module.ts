@@ -1,11 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SortingComponent } from './sorting/sorting.component';
-import { FilteringComponent } from './filtering/filtering.component';
-import { EditingComponent } from './editing/editing.component';
-import { PagingComponent } from './paging/paging.component';
 
-const routes: Routes = [ { path: 'sorting', component: SortingComponent, data: { text: 'sorting' } }, { path: 'filtering', component: FilteringComponent, data: { text: 'Filtering' } }, { path: 'editing', component: EditingComponent, data: { text: 'Editing' } }, { path: 'paging', component: PagingComponent, data: { text: 'Paging' } }];
+import { PagingHierarchyComponent } from './paging-hierarchy/paging-hierarchy.component';
+import { FilteringHierarchyComponent } from './filtering-hierarchy/filtering-hierarchy.component';
+import { EditingHierarchyComponent } from './editing-hierarchy/editing-hierarchy.component';
+import { SortingHeirarchyComponent } from './sorting-heirarchy/sorting-heirarchy.component';
+
+const routes: Routes = [
+
+      { path: 'paging-hierarchy', component: PagingHierarchyComponent, data: { text: 'paging-hierarchy' } },
+       { path: 'filtering-hierarchy', component: FilteringHierarchyComponent, data: { text: 'filtering-hierarchy' } },
+        { path: 'editing-hierarchy', component: EditingHierarchyComponent, data: { text: 'editing-hierarchy' } },
+         { path: 'sorting-heirarchy', component: SortingHeirarchyComponent, data: { text: 'sorting-heirarchy' } }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

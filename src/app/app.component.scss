@@ -19,6 +19,7 @@
   
   .navbar{
       padding-left: 10px;
+      background: #F4FFFB;
   }
 
 
@@ -41,7 +42,8 @@
   
   .navbar-toggler {
     border: none !important;
-    color: black;
+    color: black !important;
+    visibility: visible;
   }
   
   .nav-link {
