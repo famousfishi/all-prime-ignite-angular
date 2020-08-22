@@ -23,9 +23,9 @@
   }
 
 
-  .navbar-brand {
-    padding-left: 0px;
-  }
+  // .navbar-brand {
+  //   padding-left: 0px;
+  // }
   
   .navbar-nav li {
     padding: 20px 10px;
@@ -44,6 +44,7 @@
     border: none !important;
     color: black !important;
     visibility: visible;
+    margin-right: 15px;
   }
   
   .nav-link {
@@ -54,7 +55,6 @@
 
 
   @media only screen and (max-device-width : 768px) {
-   
   .navbar-brand {
     height: 30px !important;
   }

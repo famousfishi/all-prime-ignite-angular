@@ -17,7 +17,7 @@ import { SortingHeirarchyComponent } from './sorting-heirarchy/sorting-heirarchy
     PagingHierarchyComponent,
     FilteringHierarchyComponent,
     EditingHierarchyComponent,
-    SortingHeirarchyComponent
+    SortingHeirarchyComponent,
   ],
   imports: [
     BrowserModule,

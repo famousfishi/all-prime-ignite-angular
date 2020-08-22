@@ -7,7 +7,6 @@ import { EditingHierarchyComponent } from './editing-hierarchy/editing-hierarchy
 import { SortingHeirarchyComponent } from './sorting-heirarchy/sorting-heirarchy.component';
 
 const routes: Routes = [
-
       { path: 'paging-hierarchy', component: PagingHierarchyComponent, data: { text: 'paging-hierarchy' } },
        { path: 'filtering-hierarchy', component: FilteringHierarchyComponent, data: { text: 'filtering-hierarchy' } },
         { path: 'editing-hierarchy', component: EditingHierarchyComponent, data: { text: 'editing-hierarchy' } },
